@@ -1,0 +1,30 @@
+.match {
+    display: flex;
+    justify-content: space-between;
+    padding: 10PX;
+    align-items: center;
+
+}
+
+.match img {
+    width: 80px;
+    height: 50px;
+}
+
+.team {
+    text-align: center;
+}
+
+.date {
+    color: rgba(128, 128, 128, 0.534);
+    font-size: 12px;
+}
+
+.blogs {
+    color: black;
+    font-weight: 900;
+    width: 80%;
+    height: 200px;
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 10px;
+}
