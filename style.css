@@ -41,6 +41,10 @@ main {
     margin: 5px;
 }
 
+.livebutton:hover {
+    background-color: brown;
+}
+
 .detail {
     padding-bottom: 10px;
 }
@@ -55,6 +59,7 @@ main {
 .img img {
     height: 100%;
     width: 100%;
+
 }
 
 /* body section*/
@@ -158,6 +163,8 @@ button:hover {
 @media screen and (max-width: 576px) {
     .body {
         flex-direction: column;
+        align-items: flex-end;
+
     }
 
     .firstpart {
@@ -177,6 +184,11 @@ button:hover {
         border-radius: 5px;
         margin: 2px;
     }
+
+    .secpart {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 
 
 }
